@@ -91,6 +91,10 @@ def all_holidays_with_bbq(holiday_hash)
     data.do each |holiday, item| 
       if item.include?("BBQ") do
         result << holiday
+      end
+    end
+  end
+  result
   
 
 end
