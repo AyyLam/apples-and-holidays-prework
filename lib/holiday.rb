@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
       # if event.length > 1
       #   event = event.split("_")
       # end 
-      event.collect do |letter| 
+      event.each do |letter| 
         letter.capitalize!
       end
       event.join(" ") 
