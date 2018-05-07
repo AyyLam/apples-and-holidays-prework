@@ -56,7 +56,7 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash[:winter].each do |holiday, items|
     items.each do |item|
       winter_supplies << item
-      end
+      endhttps://learn.co/tracks/web-development-fundamentals/intro-to-ruby/intro-to-hashes/manipulation-lab#
     end
   winter_supplies
 end
