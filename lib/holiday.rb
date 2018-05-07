@@ -79,7 +79,7 @@ def all_supplies_in_holidays(holiday_hash)
         letter.capitalize!
       end
       event.join(" ") 
-      puts "  " + "#{event}: " << "#{items}"
+      puts "  " + "#{event}: ".join(" ") << "#{items}"
     end
   end
 end
